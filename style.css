@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+.page-wrapper svg {
+    width: 100%;
+}
+
+.count-up * {
+    cursor: pointer;
+}
+
+.active-option .fill {
+    transition: all .2s;
+    fill: #F4FAFE;
+}
+
+.active-option .stroke {
+    transition: all .2s;
+    stroke: #2196F3;
+}
+
+.funnel-container {
+    width: 526px;
+    max-width: 30vw;
+    min-width: 375px;
+    margin: auto 0;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0f0f0f;
+    position: absolute;
+    bottom: 67px;
+    left: 208px;
+}
+
+.coupon-wrapper,
+.shipping-wrapper,
+.total-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping-wrapper {
+    border-bottom: 1px solid #e7ebed;
+    padding: 10px 0 16px;
+    margin-bottom: 20px;
+}
+
+.total-price-wrapper {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.price-title {
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.old-price {
+    text-decoration-line: line-through;
+    color: #5b6971;
+    transition: all 0.1s;
+}
+
+.new-price {
+    color: #f22a42;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.alternative {
+    font-size: 14px;
+    line-height: 23px;
+    color: #3a4850;
+    margin-top: 4px;
+}
